@@ -1,0 +1,84 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="jquery-mobile/jquery.mobile.theme-1.3.0.min.css" rel="stylesheet" type="text/css">
+<link href="jquery-mobile/jquery.mobile.structure-1.3.0.min.css" rel="stylesheet" type="text/css">
+<script src="jquery-mobile/jquery-1.11.1.min.js"></script>
+<script src="jquery-mobile/jquery.mobile-1.3.0.min.js"></script>
+<link href="styles/custom.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div data-role="page" id="page1">
+		<div data-role= "navbar">
+		<ul> 
+		<div class="logo"><img src="images/Aveylable.svg" width="88" height="27" alt=""/></div>
+		</ul>
+	 </div><!-- /header -->
+		<br><br>
+     
+   <div data-role ="content"> 
+    <p align= "center"> Welcome!</p>
+     <p1 align= "center"> Please type in your email for more info! </p1>
+      <form method="post" id="loginForm" action="mailto:daoud010@gmail.com">
+        <label for="password">Email:</label> 
+        <input class="required" type="text" name="username" id="username"
+          placeholder="you email" > 
+     
+        <input name="submitForm" type ="submit" id="submitForm" value = "Submit" />
+       
+      </form>
+      
+      <br> <br>
+  
+	   <a href ="#page2" class ="ui-btn"> Explore</a>
+	  
+   
+    
+    </div>
+ 
+                 
+                                                 <!-- /navbar -->
+</div>
+ <div data-role="page" id="page2" data-add-back-btn ="true" >
+        <div data-role="content">
+    
+    <div data-role= "fieldcontain">
+     <label for="selectmenu" class= "select"> What is your favorite sneaker brand?:</label>
+     <select name ="selectmenu" id="selectmenu">
+     	<option value="option1"> select </option>
+     	<option value="option1"> Nike </option>
+     	<option value="option1"> Adidas </option>
+     	<option value="option1"> Reebok </option>	
+     
+     	
+     </select>
+    	
+    </div>
+          
+        <p> Stay tune for more content</p>
+        
+        <table>
+        	<td> <img src="styles/BA7260_01_standard.jpeg" width= "100"/> </td>
+        	<td><img src="styles/nike.jpeg" width="100"/> </td>
+        	<td><img src="styles/reebok.jpeg" width = "100"/> </td>
+        	
+        	
+        </table>
+        
+        
+        
+        
+        </div>
+        
+        
+ </div>   
+      
+    
+  
+ 
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+.logo {
+position: absolute;
+width: 88px;
+height: 27px; /* 27*/
+left: 15px;
+top: 20.68px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 18px;
+
+	
+}
+
+.bag {
+	
+position: absolute;
+width: 15px;
+height: auto;/* 20*/
+left: 310px;
+top: 20.68px;
+}
+
+.hamburger {
+	
+position: absolute;
+width: 17.24px;
+height: auto; /*1.82*/
+left: 340px;
+top: 20.09px;
+}
+/*#page1.ui-page{
+    background: url("backgroundpic.jpeg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: auto;
+  background-size: auto auto;
+}
+*/
+
+.required {
+	
+	width: 80%;
+}
